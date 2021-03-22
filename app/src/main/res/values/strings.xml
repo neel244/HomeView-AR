@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">House Interior-AR/VR</string>
+    <string name="share_now">Share_Now</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

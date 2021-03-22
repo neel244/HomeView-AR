@@ -1,0 +1,68 @@
+{
+  animations: [
+    {
+      path: 'sampledata/woodenstool.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'straightbrown',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/woodenstool.fbx',
+    name: 'woodenstool',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\woodenstool.fbm\\straightbrown.jpg',
+      name: 'straightbrown',
+      pipeline_name: 'woodenstool.fbm\\straightbrown.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

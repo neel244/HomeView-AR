@@ -1,0 +1,149 @@
+{
+  animations: [
+    {
+      path: 'sampledata/pinksidestool.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #8bvn',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'textiles_1_20090323_1963410504',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material #7cv',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'pink',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material #9vbn',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'textiles_1_20090323_1963410504',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/pinksidestool.fbx',
+    name: 'pinksidestool',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\pinksidestool.fbm\\textiles_1_20090323_1963410504.png',
+      name: 'textiles_1_20090323_1963410504',
+      pipeline_name: 'pinksidestool.fbm\\textiles_1_20090323_1963410504.png',
+    },
+    {
+      file: 'sampledata\\pinksidestool.fbm\\pink.jpg',
+      name: 'pink',
+      pipeline_name: 'pinksidestool.fbm\\pink.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

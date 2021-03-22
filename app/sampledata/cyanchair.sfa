@@ -1,0 +1,158 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Cole_Armchair_Fabric|Cole_Armchair_Fabric|Cole_Armchair_Fabric|Cole_ArmchairAction.0',
+        },
+        {
+          name: 'Cole_Armchair_Fabric|Cole_Armchair_Fabric|Cole_Armchair_Fabric|Cole_ArmchairAction|C',
+        },
+        {
+          name: 'Cole_Armchair_Fabric|Cole_Armchair_Leather|Cole_Armchair_Leather|Cole_ArmchairAc',
+        },
+        {
+          name: 'Cole_Armchair_Fabric|Cole_Armchair_Leather|Cole_Armchair_Leather|Cole_ArmchairAction',
+        },
+      ],
+      path: 'sampledata/cyanchair.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Cole_Metal',
+      parameters: [
+        {
+          baseColor: [
+            0.050626999999999998,
+            0.050626999999999998,
+            0.050626999999999998,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Cole_Fabric',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'cyan',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'unnamed material',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/cyanchair.fbx',
+    name: 'cyanchair',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\cyanchair.fbm\\cyan.jpg',
+      name: 'cyan',
+      pipeline_name: 'cyanchair.fbm\\cyan.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

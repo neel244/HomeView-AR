@@ -1,0 +1,149 @@
+{
+  animations: [
+    {
+      path: 'sampledata/whiteblackstool.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material #1433612518',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'white_black',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Marble',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Drawer Texture(Final Gloss)',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Hrnce nerezdddd',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Drawer Texture(Final Gloss)',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/whiteblackstool.fbx',
+    name: 'whiteblackstool',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\whiteblackstool.fbm\\white_black.jpg',
+      name: 'white_black',
+      pipeline_name: 'whiteblackstool.fbm\\white_black.jpg',
+    },
+    {
+      file: 'sampledata\\whiteblackstool.fbm\\Drawer Texture(Final Gloss).png',
+      name: 'Drawer Texture(Final Gloss)',
+      pipeline_name: 'whiteblackstool.fbm\\Drawer Texture(Final Gloss).png',
+    },
+  ],
+  version: '0.54:2',
+}

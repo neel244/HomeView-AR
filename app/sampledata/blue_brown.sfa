@@ -1,0 +1,149 @@
+{
+  animations: [
+    {
+      path: 'sampledata/blue_brown.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: '08 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Arch33_078_wood',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'unnamed material',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '07 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Drawer Texture(Final)_NRM',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/blue_brown.fbx',
+    name: 'blue_brown',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\blue_brown.fbm\\Arch33_078_wood.jpg',
+      name: 'Arch33_078_wood',
+      pipeline_name: 'blue_brown.fbm\\Arch33_078_wood.jpg',
+    },
+    {
+      file: 'sampledata\\blue_brown.fbm\\Drawer Texture(Final)_NRM.jpg',
+      name: 'Drawer Texture(Final)_NRM',
+      pipeline_name: 'blue_brown.fbm\\Drawer Texture(Final)_NRM.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

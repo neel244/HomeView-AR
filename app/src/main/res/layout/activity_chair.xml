@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/stool"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/stool"></ImageView>
+
+
+
+            <ImageView
+                android:id="@+id/table"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/table"></ImageView>
+            <ImageView
+                android:id="@+id/stool2"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/stool2"></ImageView>
+
+            <Button
+                android:id="@+id/open_bottom_sheet"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:text="Open" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

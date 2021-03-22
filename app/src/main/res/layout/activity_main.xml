@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainlayout"
+    android:background="@drawable/bear"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/stool"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/stool"></ImageView>
+
+
+
+            <ImageView
+                android:id="@+id/table"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/table"></ImageView>
+
+            <ImageView
+                android:id="@+id/stool2"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/stool2"></ImageView>
+
+            <ImageView
+                android:id="@+id/coffeetable"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/coffee_table"></ImageView>
+
+
+            <ImageView
+                android:id="@+id/diningtable"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/dining"></ImageView>
+
+            <ImageView
+                android:id="@+id/greytable"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/greytable"></ImageView>
+
+            <ImageView
+                android:id="@+id/gtable"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/gtable"></ImageView>
+            <ImageView
+                android:id="@+id/woodtable"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/woodtable"></ImageView>
+
+            <ImageView
+                android:id="@+id/pinksidedstool"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/pinksidedstool"></ImageView>
+
+            <ImageView
+                android:id="@+id/sidestool"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/sidestool"></ImageView>
+
+
+            <ImageView
+                android:id="@+id/woodenstool"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/woodenstool"></ImageView>
+
+
+
+            <ImageView
+                android:id="@+id/whiteblackstool"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/whiteblackstool"></ImageView>
+
+
+            <ImageView
+                android:id="@+id/redbrownstool"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/redbrownstool"></ImageView>
+
+
+            <ImageView
+                android:id="@+id/cubestool"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/cubestool"></ImageView>
+
+
+
+            <ImageView
+                android:id="@+id/redarmchair"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/redarmchair"></ImageView>
+            <ImageView
+                android:id="@+id/bluebrownchair"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bluebrownchair"></ImageView>
+
+
+
+
+            <ImageView
+                android:id="@+id/cyanchair"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/cyanchair"></ImageView>
+
+            <ImageView
+                android:id="@+id/armchair"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/armchair"></ImageView>
+
+
+            <ImageView
+                android:id="@+id/glossybrown"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/glossybrown"></ImageView>
+
+
+            <ImageView
+                android:id="@+id/officechair"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/officechair"></ImageView>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/open_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="14dp"
+        android:alpha="0.8"
+        android:background="@drawable/border"
+        android:text="Show Categories"
+        android:textStyle="bold" />
+
+</RelativeLayout>

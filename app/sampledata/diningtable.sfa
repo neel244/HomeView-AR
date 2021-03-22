@@ -1,0 +1,99 @@
+{
+  animations: [
+    {
+      path: 'sampledata/diningtable.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Walter_Knoll_Joco_Dining_Table_220_mtl_1',
+      parameters: [
+        {
+          baseColor: [
+            0.027451,
+            0.027451,
+            0.027451,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Walter_Knoll_Joco_Dining_Table_220_mtl_2',
+      parameters: [
+        {
+          baseColor: [
+            0.13333300000000001,
+            0.13333300000000001,
+            0.14902000000000001,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/diningtable.fbx',
+    name: 'diningtable',
+    recenter: 'root',
+  },
+  version: '0.54:2',
+}

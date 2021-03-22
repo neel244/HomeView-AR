@@ -1,0 +1,108 @@
+{
+  animations: [
+    {
+      path: 'sampledata/glossybrown.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'FabricDenim003_3K',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Drawer Texture(Final)',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'WoodQuarteredChiffon001_6K',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Drawer Texture(Final)',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/glossybrown.fbx',
+    name: 'glossybrown',
+    recenter: 'root',
+    scale: 0.59240199999999998,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\glossybrown.fbm\\Drawer Texture(Final).png',
+      name: 'Drawer Texture(Final)',
+      pipeline_name: 'glossybrown.fbm\\Drawer Texture(Final).png',
+    },
+  ],
+  version: '0.54:2',
+}
